@@ -261,7 +261,7 @@ link_list:
     theme:
       style: item
       siteImage: 
-  - avatar: https://unpkg.zhimg.com/gahotx-cdn@latest/photo/cat.jpg
+  - avatar: https://pub.gahotx.cn/photo/cat.jpg
     description: Don't repeat yourself
     link: https://gahotx.cn/
     name: Gahotx
