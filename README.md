@@ -1,10 +1,10 @@
 ## 说明
 
-这是CC友链仓库，将友链一一记录在`data`文件夹中
+这是小康友链仓库，将友链一一记录在`data`文件夹中
 
 上述教程仅为演示 不建议各位互换友链的小伙伴新建文件进行合并后，建议各位小伙伴选择已有标签进行合并。
 
-你所申请的友链将全部在[CC的小伙伴们 | CC的部落格](https://blog.ccknbc.cc/blogroll/)中显示。
+你所申请的友链将全部在[小康的友链](https://www.antmoe.com/friends/)中显示。
 
 ## 提交友链
 
@@ -23,10 +23,10 @@
 例如，我添加如下友链到新的文件`测试.yml`
 
 ```yaml
-name: CC康纳百川
-link: https://blog.ccknbc.cc
-avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
-descr: CC康纳百川的小窝
+name: 小康博客
+link: https://www.antmoe.com/
+avatar: https://test1.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+descr: 一个收藏回忆与分享技术的地方！
 ```
 
 
@@ -41,10 +41,10 @@ descr: CC康纳百川的小窝
    class_name: 测试分组
    class_desc: 这是一个测试使用的分组
    link_list:
-     - name: CC康纳百川
-       link: https://blog.ccknbc.cc
-       avatar: https://cdn.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
-       descr: CC康纳百川的小窝
+     - name: 小康博客
+       link: https://www.antmoe.com/
+       avatar: https://test1.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+       descr: 一个收藏回忆与分享技术的地方！
        theme:
          style: default
          siteImage:
@@ -66,6 +66,8 @@ descr: CC康纳百川的小窝
    > - 文件名
    >
    >   理论上文件名可以随意填写（注意结尾的yml后缀），但是为了方便查找，建议将文件名命名为标签名。
+
+   > 完整示例参考：[乐特专属.yml](https://github.com/kkfive/my-friend/blob/master/data/%E4%B9%90%E7%89%B9%E4%B8%93%E5%B1%9E.yml)
 
    ![image-20220212173552246](https://file.acs.pw/picGo/2022/02/12/20220212173552.png)
 
@@ -108,4 +110,26 @@ descr: CC康纳百川的小窝
 ![image-20220212175154310](https://file.acs.pw/picGo/2022/02/12/20220212175154.png)
 
 ![image-20220212175232232](https://file.acs.pw/picGo/2022/02/12/20220212175232.png)
+
+
+
+## Plugins
+
+此部分主要用于生成基于友链的一些扩展信息文件，例如用于友链朋友圈的`SETTINGS_FRIENDS_LINKS.json_api`配置。
+
+### fcircle
+
+用于友链朋友圈的扩展文件生成。默认将所有友链都加入文件中，如果单独屏蔽某个链接，只需要在友链中写入字段`banSub`即可。例如：
+
+```yaml
+link_list:
+  - avatar: 
+    description: 
+    link: 
+    name: 
+    # 是否禁用友链爬虫（true表示不加入友链爬虫队列，false表示加入爬虫队列）
+    banSub: true
+    # 自定义后缀，对应友链爬虫的suffix字段
+    subSuffix: atom.xml
+```
 
