@@ -4,7 +4,7 @@
 
 上述教程仅为演示 不建议各位互换友链的小伙伴新建文件进行合并后，建议各位小伙伴选择已有标签进行合并。
 
-你所申请的友链将全部在[小康的友链](https://www.antmoe.com/friends/)中显示。
+你所申请的友链将全部在[CC的友链](https://blog.ccknbc.cc/blogroll/)中显示。
 
 ## 提交友链
 
@@ -25,7 +25,7 @@
 ```yaml
 name: 小康博客
 link: https://www.antmoe.com/
-avatar: https://test1.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+avatar: https://gcore.jsdelivr.net/npm/kang-static@latest/avatar.jpg
 descr: 一个收藏回忆与分享技术的地方！
 ```
 
@@ -43,7 +43,7 @@ descr: 一个收藏回忆与分享技术的地方！
    link_list:
      - name: 小康博客
        link: https://www.antmoe.com/
-       avatar: https://test1.jsdelivr.net/npm/kang-static@latest/avatar.jpg
+       avatar: https://gcore.jsdelivr.net/npm/kang-static@latest/avatar.jpg
        descr: 一个收藏回忆与分享技术的地方！
        theme:
          style: default
