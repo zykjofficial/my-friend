@@ -141,7 +141,7 @@ link_list:
     theme:
       style: item
       siteImage: ''
-  - avatar: >-
+  - avatar: 
       https://gitee.com/sutianxin/my-hexo-blog-photo/raw/master/20210213111233.png
     description: 往者不谏 来者可追
     link: https://sutianxin.top
@@ -226,6 +226,8 @@ link_list:
     theme:
       style: card
       siteImage: 
+    # 是否禁用友链爬虫（true表示不加入友链爬虫队列，false表示加入爬虫队列）
+    banSub: true
   - avatar: https://gcore.jsdelivr.net/gh/mjcfx/picgo/img/qqtou.jpg
     description: 欢迎您的访问！
     link: https://6ing.xyz/
