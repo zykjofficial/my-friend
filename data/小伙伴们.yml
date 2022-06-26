@@ -333,3 +333,10 @@ link_list:
     theme:
       style: default
       siteImage: ''
+  - name: 异次元の机智君
+    link: https://www.anzifan.com/
+    avatar: https://www.anzifan.com/_next/image?url=%2Fstatic%2Fimages%2Fportrait.png&w=1920&q=75
+    description: 异次元の机智君
+    theme:
+    style: default
+    siteImage: ''
