@@ -1,5 +1,5 @@
-class_name: "小伙伴们"
-class_desc: '随机排序'
+class_name: "小伙伴们（随机排序）"
+class_desc: ''
 link_list:
   - avatar: https://akilar.top/img/siteicon/favicon.png
     description: 期待您的光临！
