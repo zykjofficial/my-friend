@@ -361,3 +361,10 @@ link_list:
     theme:
       style: default
       siteImage: ''
+  - name: VAE+
+    link: https://www.zhangweicheng.xyz/
+    avatar: https://www.zhangweicheng.xyz/logo.jpg
+    description: 人与人之间，最舒服的关系；是可以一直不说话，也可以随时说话。
+    theme:
+      style: default
+      siteImage: ''
