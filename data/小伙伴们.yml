@@ -375,3 +375,10 @@ link_list:
     theme:
       style: default
       siteImage: ''
+  - name: Eacls
+    link: https://www.eacls.top/
+    avatar: https://cdn.jsdelivr.net/gh/Eacls/eacpho/img/logo.png
+    description: 看一看世界的繁华
+    theme:
+      style: default
+      siteImage: ''
