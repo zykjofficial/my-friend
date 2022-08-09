@@ -382,3 +382,10 @@ link_list:
     theme:
       style: default
       siteImage: ''
+  - name: Yuexin's Blog
+    link: https://wyxogo.top/
+    avatar: https://wyxogo.top/images/avatar.webp
+    description: KEEP WALKING
+    theme:
+      style: default
+      siteImage: ''
