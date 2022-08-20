@@ -396,3 +396,17 @@ link_list:
     theme:
       style: default
       siteImage: ''
+  - name: 御网尚书的小宇宙
+    link: https://www.siteweb.cn/
+    avatar: https://www.hack-gov.cn/favicon.ico
+    description: 愿以赤子之心，共建网络空间安全
+    theme:
+      style: default
+      siteImage: ''
+  - name: LYXの小破站
+    link: https://yisous.xyz
+    avatar: https://yisous.xyz/img/avatar.jpg
+    description: 人有悲欢离合 月有阴晴圆缺
+    theme:
+      style: default
+      siteImage: ''
