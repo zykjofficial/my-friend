@@ -284,13 +284,6 @@ link_list:
     theme:
       style: item
       siteImage: 
-  - avatar: https://www.hack-gov.cn/img/friend_404.gif
-    description: 御网尚书 - 源自于热爱网络安全
-    link: https://www.hack-gov.cn
-    name: 御网尚书
-    theme:
-      style: item
-      siteImage: 
   - avatar: https://gcore.jsdelivr.net/gh/fivefirex/cdn/avatar.jpeg
     description: 啥也不会的菜鸟，开发编程
     link: https://fivefirex.github.io/
@@ -391,14 +384,7 @@ link_list:
       siteImage: ''
   - name: 御网尚书的小宇宙
     link: https://www.siteweb.cn/
-    avatar: https://www.hack-gov.cn/favicon.ico
-    description: 愿以赤子之心，共建网络空间安全
-    theme:
-      style: default
-      siteImage: ''
-  - name: 御网尚书的小宇宙
-    link: https://www.siteweb.cn/
-    avatar: https://www.hack-gov.cn/favicon.ico
+    avatar: https://websitecssjs.oss-cn-beijing.aliyuncs.com/links/favicon.ico
     description: 愿以赤子之心，共建网络空间安全
     theme:
       style: default
