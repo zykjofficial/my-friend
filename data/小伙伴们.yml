@@ -396,3 +396,11 @@ link_list:
     theme:
       style: default
       siteImage: ''
+  - name: 梦落の小屋
+    link: https://blog.dreamfall.cn
+    avatar: https://mengluo.work/source/img/avatar.jpg
+    description: 因为不可能，所以才值得相信
+    theme:
+      style: default
+      siteImage: ''
+ 
