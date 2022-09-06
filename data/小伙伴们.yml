@@ -23,9 +23,9 @@ link_list:
       style: card
       siteImage: 
   - avatar: https://gcore.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
-    description: Remarkable life,for science and technology.
+    description: 做一个普普通通的人.
     link: https://zykj.js.org
-    name: 卓越科技的Blog
+    name: ZYKJ's Blog
     theme:
       style: card
       siteImage: 
