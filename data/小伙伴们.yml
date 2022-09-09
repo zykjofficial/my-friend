@@ -387,7 +387,7 @@ link_list:
     avatar: https://websitecssjs.oss-cn-beijing.aliyuncs.com/links/favicon.ico
     description: 愿以赤子之心，共建网络空间安全
     theme:
-      style: default
+      style: card
       siteImage: ''
   - name: LYXの小破站
     link: https://yisous.xyz
