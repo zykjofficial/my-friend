@@ -1,6 +1,13 @@
 class_name: "小伙伴们（随机排序）"
-class_desc: ''
+class_desc: "部分失联或头像链接更改的，麻烦尽快联系我修改或自行PR"
 link_list:
+  - name: CC的部落格
+    link: https://blog.ccknbc.cc
+    avatar: https://gcore.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
+    description: 他们都叫我菜狗
+    theme:
+      style: card
+      siteImage: ''
   - avatar: https://akilar.top/img/siteicon/favicon.png
     description: 期待您的光临！
     link: https://akilar.top/
@@ -226,7 +233,6 @@ link_list:
     theme:
       style: card
       siteImage: 
-    # 是否禁用友链爬虫（true表示不加入友链爬虫队列，false表示加入爬虫队列）
     banSub: true
   - avatar: https://gcore.jsdelivr.net/gh/mjcfx/picgo/img/qqtou.jpg
     description: 欢迎您的访问！
@@ -403,4 +409,17 @@ link_list:
     theme:
       style: default
       siteImage: ''
- 
+
+
+
+  # - name: 
+  #   link: 
+  #   avatar: 
+  #   description: 
+  #   是否禁用友链爬虫（true表示不加入友链爬虫队列，false表示加入爬虫队列）
+  #   banSub: false
+  #   自定义后缀，对应友链爬虫的suffix字段
+  #   subSuffix: atom.xml
+  #   theme:
+  #     style: default
+  #     siteImage: ''
