@@ -1,10 +1,14 @@
 ## 说明
 
-这是小康友链仓库，将友链一一记录在`data`文件夹中
+这是[ZYKJ](https://zykj.js.org/link)友链仓库，将友链一一记录在`data`文件夹中
 
 上述教程仅为演示 不建议各位互换友链的小伙伴新建文件进行合并后，建议各位小伙伴选择已有标签进行合并。
 
-你所申请的友链将全部在[CC的友链](https://blog.ccknbc.cc/blogroll)中显示。
+你所申请的友链将全部在[友链](https://zykj.js.org/link/)中显示。
+
+本项目还增加了友链截图功能(链接必须是`https`开头)，可以在[gh-pages](https://gcore.jsdelivr.net/gh/zykjofficial/my-friend@gh-pages/)这里查看。
+
+注意：因为`CDN缓存`问题，更新可能会有较大延迟，还请见谅。
 
 ## 提交友链
 
@@ -23,10 +27,10 @@
 例如，我添加如下友链到新的文件`测试.yml`
 
 ```yaml
-name: 小康博客
-link: https://www.antmoe.com/
-avatar: https://gcore.jsdelivr.net/npm/kang-static@latest/avatar.jpg
-descr: 一个收藏回忆与分享技术的地方！
+name: ZYKJ's Blog
+link: https://zykj.js.org/
+avatar: https://gcore.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
+descr: 做一个普普通通的人.
 ```
 
 
@@ -41,10 +45,10 @@ descr: 一个收藏回忆与分享技术的地方！
    class_name: 测试分组
    class_desc: 这是一个测试使用的分组
    link_list:
-     - name: 小康博客
-       link: https://www.antmoe.com/
-       avatar: https://gcore.jsdelivr.net/npm/kang-static@latest/avatar.jpg
-       descr: 一个收藏回忆与分享技术的地方！
+     - name: ZYKJ's Blog
+       link: https://zykj.js.org/
+       avatar: https://gcore.jsdelivr.net/gh/zykjofficial/zykjofficial.github.io@master/img/avatar.png
+       descr: 做一个普普通通的人.
        theme:
          style: default
          siteImage:
@@ -110,7 +114,6 @@ descr: 一个收藏回忆与分享技术的地方！
 ![image-20220212175154310](https://file.acs.pw/picGo/2022/02/12/20220212175154.png)
 
 ![image-20220212175232232](https://file.acs.pw/picGo/2022/02/12/20220212175232.png)
-
 
 
 ## Plugins

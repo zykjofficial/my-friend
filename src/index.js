@@ -1,4 +1,5 @@
 const yaml = require('js-yaml')
+const request = require('request')
 const fs = require('fs')
 const { fcirclePlugin } = require('./plugins/index.js')
 let friendFiles = []
@@ -21,10 +22,18 @@ sortKey.split(',').forEach((key) => {
   }
 })
 
+if (!fs.existsSync('./dist')) {
+  fs.mkdirSync('./dist')
+}
+
 friendFiles.forEach((item) => {
   const name = item.split('.')
   const content = yaml.load(fs.readFileSync(`./data/${item}`, 'utf8'))
   linkList.push(...content.link_list)
+  linkList.forEach((link)=>{
+    //console.log("./dist/"+link['link'].replace("https://","").replace("/","")+".png");
+    download_img("https://image.thum.io/get/width/400/crop/800/allowJPG/wait/20/noanimate/"+link['link'],"./dist/"+link['link'].replace("https://","").replace("/","")+".png")
+  })
   content.link_list = content.link_list.filter((item) => {
     if (!item.disable) return item
   })
@@ -33,9 +42,12 @@ friendFiles.forEach((item) => {
   }
 })
 
-if (!fs.existsSync('./dist')) {
-  fs.mkdirSync('./dist')
-}
+
+async function download_img(img_url, file_name){
+  await request(img_url).pipe(fs.createWriteStream(file_name)).on('close',function(){
+       //console.log('pic saved!')
+   })
+ }
 
 const fcircleData = fcirclePlugin(linkList)
 fs.writeFileSync('./dist/blogroll.json', JSON.stringify(result))

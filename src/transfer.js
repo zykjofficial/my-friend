@@ -47,7 +47,7 @@ const splitData = (data) => {
 
 const init = async () => {
   const res = await getData(
-    'https://unpkg.com/myfriend@1.6.43951471215/friend.json'
+    'Gitee友联JSON'
   )
   const friendObj = splitData(res)
   const allLabelList = Object.keys(friendObj)

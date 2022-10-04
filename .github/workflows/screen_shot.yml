@@ -1,0 +1,47 @@
+name: screen_shot
+on: 
+  push:
+    branches: 
+      - master
+
+jobs:
+  screen_shot:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: 检查分支
+      uses: actions/checkout@master
+      
+    - name: 安装Node
+      uses: actions/setup-node@v2-beta
+      with:
+        node-version: "12.x"
+
+    - name: 缓存依赖
+      uses: actions/cache@v2.1.1
+      id: cache-dependencies
+      with:
+        path: node_modules
+        key: ${{runner.OS}}-${{hashFiles('**/package-lock.json')}}
+
+    - name: 安装依赖
+      if: steps.cache-dependencies.outputs.cache-hit != 'true'
+      run: |
+        npm install
+    
+    - name: 执行
+      run: npm run build
+      
+    - name: 部署
+      env:
+        TZ: Asia/Shanghai
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./dist
+        full_commit_message: 'Updated By Github Actions'
+    
+    - name: 清除缓存
+      run: |
+        curl https://purge.jsdelivr.net/gh/${{ github.repository }}@gh-pages/*.*
+        curl https://purge.jsdelivr.net/gh/${{ github.repository }}@master/*.*
