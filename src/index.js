@@ -45,7 +45,7 @@ friendFiles.forEach((item) => {
 
 async function download_img(img_url, file_name){
   await request(img_url).pipe(fs.createWriteStream(file_name)).on('close',function(){
-       //console.log('pic saved!')
+       console.log('正在下载 '+file_name)
    })
  }
 
