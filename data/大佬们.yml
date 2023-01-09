@@ -36,10 +36,10 @@ link_list:
     theme:
       style: item
       siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/wayne0926/myphoto/img/avatar.jpg
-    description: 以梦为马，不负韶华
-    link: https://wr0926.ml
-    name: 时过境迁Wayne博客
+  - avatar: https://cdn.staticaly.com/gh/wayne0926/myphoto@master/img/avatar.jpg
+    description: 以梦为马，不负韶华。
+    link: https://wrans.top
+    name: Wayne's blog
     theme:
       style: item
       siteImage:
@@ -190,3 +190,10 @@ link_list:
     theme:
       style: card
       siteImage: https://opeach.cn/media/background.webp
+  - avatar: https://movie-zsh.oss-cn-beijing.aliyuncs.com/blog/hohoH.jpg
+    description: Vue3 与 SpringBoot 的博客 模仿了hexo的butterfly
+    link: https://hohoyun.cn/
+    name: hohoyun
+    theme:
+      style: card
+      siteImage: https://movie-zsh.oss-cn-beijing.aliyuncs.com/blog/blog/3.1Index.png
