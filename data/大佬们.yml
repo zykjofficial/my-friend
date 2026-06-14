@@ -1,199 +1,67 @@
-class_name: "大佬们（随机排序）"
-class_desc: '欢迎大佬们添加友链！'
-link_list:
-  - avatar: https://www.lete114.top/img/avatar.png
-    description: 人生只有一次，大胆的生活
-    link: https://lete114.top
-    name: Lete乐特
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/SerokSSR/cdn2/k16.png
-    description: 此宵风醉月舞萤
-    link: https://snow.js.org
-    name: Seeker
-    theme:
-      style: item
-      siteImage: https://gcore.jsdelivr.net/gh/SerokSSR/cdn2/shot.png
-  - avatar: https://gcore.jsdelivr.net/gh/kali65536/cdnmovie@master/pwa/512.png
-    description: 遇见更好的自己
-    link: https://kali.js.org
-    name: kali’s blog
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://blog.juanertu.com/images/avatar.png
-    description: 能与你一起成长，我荣幸之至。
-    link: https://blog.juanertu.com
-    name: 你真是一个美好的人类 / ConstOwn / 二兔
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://q2.qlogo.cn/g?b=qq&nk=2212363803&s=100
-    description: 智慧成就科技，科技改变生活。永远相信美好的事情即将发生。
-    link: https://www.iftiger.com
-    name: 泰戈尔
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://cdn.staticaly.com/gh/wayne0926/myphoto@master/img/avatar.jpg
-    description: 以梦为马，不负韶华。
-    link: https://wrans.top
-    name: Wayne's blog
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://blog.zhheo.com/img/avatar.png
-    description: 爱折腾的设计师
-    link: https://blog.zhheo.com
-    name: Heo
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
-    description: CC康纳百川
-    link: https://blog.ccknbc.cc
-    name: CC的部落格
-    theme:
-      style: card
-      siteImage: https://gcore.jsdelivr.net/gh/ccknbc-actions/blogroll@webp/blog.ccknbc.cc.webp
-  - avatar: https://www.hack-gov.com.cn/img/friend_404.gif
-    description: 源自于热爱网络安全
-    link: https://www.hack-gov.com.cn
-    name: 御网尚书
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@master/img/siteicon/favicon.png
-    description: 期待您的光临！
-    link: https://akilar.top
-    name: Akilarの糖果屋
-    theme:
-      style: card
-      siteImage:
-  - avatar: https://image.ql-isaac.cn/%E7%AB%99%E9%95%BF%E5%A4%B4%E5%83%8F.jpg
-    description: It’s a beautiful day!
-    link: https://www.imql.life
-    name: 学习与生活
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://npm.elemecdn.com/nanshen/avatar.jpg
-    description: 好记性不如烂笔头
-    link: https://blog.imzjw.cn
-    name: 小嘉的部落格
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://oy6090.top/img/avatar.png
-    description: 放弃不难，但坚持一定很酷。
-    link: https://oy6090.top
-    name: OY
-    theme:
-      style: item
-      siteImage:
-  - avatar: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
-    description: 用这生命中的每一秒，给自己一个不后悔的未来
-    link: https://noionion.top
-    name: 贰猹的小窝
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://public.cdn.nesxc.com/avatar.jpg
-    description: 青石落晚巷 故人未还乡
-    link: https://www.nesxc.com
-    name: Nesxc
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://niaobulashi.com/favicon.ico
-    description: 品味生活，分享技术
-    link: https://niaobulashi.com
-    name: 鸟不拉诗
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/YDTRINLEY/YDTRINLEY.github.io/img/bg3.jpg
-    description: 一切有为法，如梦幻泡影，如露亦如电，应作如是观...
-    link: https://www.yd-cfcz.art
-    name: 幻世·游戏人间·N次元
-    theme:
-      style: card
-      siteImage: https://gcore.jsdelivr.net/gh/YDTRINLEY/YDTRINLEY.github.io/img/bg3.jpg
-  - avatar: https://gcore.jsdelivr.net/gh/xiangshu233/blogAssets@0.2/assets/images/avatar-1.jpg
-    description: 随知修行乃当务之急，然怠惰度日至今
-    link: https://xiangshu233.cn
-    name: 乡树
-    theme:
-      style: item
-      siteImage: https://image.thum.io/get/https://www.xiangshu233.cn
-  - avatar: https://xiabor.com/img/avatar.png
-    description: 君浅吟，叹落笔
-    link: https://xiabor.com
-    name: MuJin's Blog
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg
-    description: 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。  
-    link: https://colsrch.cn
-    name: Colsrch
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://i.loli.net/2020/08/03/CUISOxB2Yjky1eP.png
-    description: 船到桥头自然直，柳暗花明又一村  
-    link: https://imbhj.com
-    name: Ordis
-    theme:
-      style: item
-      siteImage:          
-  - avatar: https://gcore.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
-    description: 一个收藏回忆与分享技术的地方！
-    link: https://www.antmoe.com
-    name: 小康博客
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://zfe.space/images/headimage.png
-    description: 做个有梦想的人！   
-    link: https://zfe.one
-    name: しゅふがく
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://gcore.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
-    description: 琉璃的医学 & 编程笔记
-    link: https://shoka.lostyu.me
-    name: 優萌初華
-    theme:
-      style: item
-      siteImage:
-  - avatar: https://www.fomal.cc/assets/head.jpg
-    description: Future is now 🍭🍭🍭
-    link: https://www.fomal.cc
-    name: Fomalhaut🥝
-    theme:
-      style: card
-      siteImage: https://image.thum.io/get/allowJPG/wait/20/width/600/crop/950/https://blog.fomal.cc
-  - avatar: https://pic1.imgdb.cn/item/630c05de16f2c2beb1d86de2.jpg
-    description: 苦难不值得追求，磨练意志是因为苦难无法躲开
-    link: https://weekdaycare.cn
-    name: 涛声依旧
-    theme:
-      style: item
-      siteImage: 
-  - avatar: https://opeach.cn/media/avatar.webp
-    description: 妙不可言
-    link: https://opeach.cn
-    name: HiPeach
-    theme:
-      style: card
-      siteImage: https://opeach.cn/media/background.webp
-  - avatar: https://movie-zsh.oss-cn-beijing.aliyuncs.com/blog/hohoH.jpg
-    description: Vue3 与 SpringBoot 的博客 模仿了hexo的butterfly
-    link: https://hohoyun.cn/
-    name: hohoyun
-    theme:
-      style: card
-      siteImage: https://movie-zsh.oss-cn-beijing.aliyuncs.com/blog/blog/3.1Index.png
+- class_name: "大佬们（随机排序）"
+  class_desc: '太懒了，暂停申请'
+  link_list:
+    - name: Lete乐特
+      avatar: https://www.lete114.top/img/avatar.png
+      descr: 人生只有一次，大胆的生活
+      link: https://lete114.top
+    - avatar: https://cdn.akioi.eu.org/share.jpg
+      descr: 此宵风醉月舞萤
+      link: https://snow.js.org
+      name: Seeker
+    - avatar: https://gcore.jsdelivr.net/gh/kali65536/cdnmovie@master/pwa/512.png
+      descr: 遇见更好的自己
+      link: https://kali.js.org
+      name: kali’s blog
+    - avatar: https://blog.zhheo.com/img/avatar.png
+      descr: 爱折腾的设计师
+      link: https://blog.zhheo.com
+      name: Heo
+    - avatar: https://gcore.jsdelivr.net/gh/ccknbc-backup/cdn/logo/ccknbc.png
+      descr: CC康纳百川
+      link: https://blog.ccknbc.cc
+      name: CC的部落格
+    - avatar: https://gcore.jsdelivr.net/gh/Akilarlxh/Akilarlxh.github.io@master/img/siteicon/favicon.png
+      descr: 期待您的光临！
+      link: https://akilar.top
+      name: Akilarの糖果屋
+    - avatar: https://npm.elemecdn.com/nanshen/avatar.jpg
+      descr: 好记性不如烂笔头
+      link: https://blog.imzjw.cn
+      name: 小嘉的部落格
+    - avatar: http://pub-noionion.oss-cn-hangzhou.aliyuncs.com/head.jpg
+      descr: 用这生命中的每一秒，给自己一个不后悔的未来
+      link: https://noionion.top
+      name: 贰猹的小窝
+    - avatar: https://gcore.jsdelivr.net/gh/xiangshu233/blogAssets@0.2/assets/images/avatar-1.jpg
+      descr: 随知修行乃当务之急，然怠惰度日至今
+      link: https://xiangshu233.cn
+      name: 乡树
+    - avatar: https://gcore.jsdelivr.net/gh/Colsrch/images/Colsrch/avatar.jpg  
+      descr: 愿多年以后，我可以酌一杯清酒，烂醉如泥，梦中回到我们的曾经。  
+      link: https://colsrch.cn
+      name: Colsrch
+    - avatar: https://i.loli.net/2020/08/03/CUISOxB2Yjky1eP.png
+      descr: 船到桥头自然直，柳暗花明又一村  
+      link: https://imbhj.com
+      name: Ordis         
+    - avatar: https://gcore.jsdelivr.net/gh/sviptzk/HexoStaticFile@latest/avatar.jpg
+      descr: 一个收藏回忆与分享技术的地方！
+      link: https://www.antmoe.com
+      name: 小康博客
+    - avatar: https://zfe.space/images/headimage.png
+      descr: 做个有梦想的人！   
+      link: https://zfe.space
+      name: しゅふがく
+    - avatar: https://gcore.jsdelivr.net/gh/amehime/shoka@latest/images/avatar.jpg
+      descr: 琉璃的医学 & 编程笔记
+      link: https://shoka.lostyu.me
+      name: 優萌初華
+    - avatar: https://pic1.imgdb.cn/item/630c05de16f2c2beb1d86de2.jpg
+      descr: 苦难不值得追求，磨练意志是因为苦难无法躲开
+      link: https://weekdaycare.cn
+      name: 涛声依旧
+    - avatar: https://npm.elemecdn.com/opicture@1.0.0/main/avatar.webp
+      descr: 妙不可言
+      link: https://blog.opeach.cn
+      name: HiPeach
